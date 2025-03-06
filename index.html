@@ -5,33 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Главная</title>
+  <link rel="stylesheet" href="/main.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <header class="header">
-      <div class="header__logo">
-        <a href="/" class="header__logo-link">
-          <img src="" alt="Логотип">
-        </a>
-      </div>
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-item"><a href="" class="header__nav-link">Главная</a></li>
-          <li class="header__nav-item"><a href="" class="header__nav-link">Услуги</a></li>
-          <li class="header__nav-item"><a href="" class="header__nav-link">Отзывы</a></li>
-        </ul>
-      </nav>
-      <div class="header__contacts">
-        <a class="header__phone" href="tel:88007003030">8 800 700 30 30</a>
-        <div class="header__schedule">График работы</div>
-      </div>
-    </header>
     <main class="page-content">
       <section class="hero">
-        <h1 class="hero__title">Авторские туры по Азии</h1>
-        <p class="hero__text">Открой для себя Азию</p>
-        <a href="" class="hero__button">Подробнее</a>
+        <div class="container">
+          <header class="header">
+            <div class="logo">
+              <a href="/" class="logo__link">
+                <img src="/img/logo.png" alt="Логотип">
+              </a>
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+              </ul>
+            </nav>
+            <address class="contacts">
+              <a class="contacts__phone" href="tel:88007003030">8 800 700 30 30</a>
+              <div class="contacts__schedule">График работы</div>
+            </address>
+          </header>
+          <div class="hero__content">
+            <div class="hero__text-section">
+              <h1 class="hero__title">Авторские туры по Азии</h1>
+              <h4 class="hero__text">Открой для себя Азию</h4>
+              <a href="#" class="btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="tours">
         <h2 class="tours__title">
